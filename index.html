@@ -27,7 +27,7 @@
         <p style="font-size: 12px; color: #666;">If this message persists, please check your browser console for errors.</p>
       </div>
     </div>
-    <script type="module" src="/src/main.tsx"></script>
+    <script type="module" src="/src/main.tsx" onerror="document.getElementById('root').innerHTML = '<div style=\'padding: 20px; color: red;\'><h1>Network Error</h1><p>Failed to load the main script. Please check your internet connection or deployment settings.</p></div>'"></script>
   </body>
 </html>
 
