@@ -31,6 +31,10 @@ export default function App() {
   const [generatedCommand, setGeneratedCommand] = useState('');
 
   useEffect(() => {
+    console.log('App mounted');
+  }, []);
+
+  useEffect(() => {
     let cmd = `wget https://raw.githubusercontent.com/hwdsl2/openvpn-install/master/openvpn-install.sh -O openvpn.sh && `;
     
     // If subnet is changed from default, add a sed command
