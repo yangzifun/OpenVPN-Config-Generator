@@ -1,0 +1,5 @@
+{
+  "name": "OpenVPN Config Generator",
+  "description": "Generate optimized OpenVPN installation commands for the hwdsl2/openvpn-install script.",
+  "requestFramePermissions": []
+}
